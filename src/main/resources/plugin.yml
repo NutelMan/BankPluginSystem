@@ -1,0 +1,26 @@
+name: BunkSystem
+version: '${project.version}'
+main: org.example.bunk.bunksystem
+api-version: '1.20'
+commands:
+  bank:
+    description: Открыть меню банка
+    usage: /bank
+  setcurrency:
+    description: Установить валюту для банка
+    usage: /setcurrency <diamond|emerald|gold|diamond_ore>
+    permission: bankplugin.admin
+  setbankname:
+    description: Установить название банка
+    usage: /setbankname <новое название>
+    permission: bankplugin.admin
+  balance:
+    description: Проверить баланс
+    usage: /balance
+  transfer:
+    description: Перевести средства другому игроку
+    usage: /transfer <игрок> <количество>
+  Bhelp:
+    description: Вывести справку по командам банка
+    usage: /Bhelp
+
