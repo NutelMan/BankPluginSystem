@@ -68,7 +68,7 @@ System.out.println("BankPluginSystem не найден!");
 }
 }
 ````
-text
+
 
 ## Конфигурация
 
